@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Max.DomainServices.Interfaces\Max.DomainServices.Interfaces.csproj" />
+    <ProjectReference Include="..\Max.Entities\Max.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

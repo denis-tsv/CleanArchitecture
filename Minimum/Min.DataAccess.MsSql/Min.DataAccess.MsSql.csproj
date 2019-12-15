@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Min.Entities\Min.Entities.csproj" />
+    <ProjectReference Include="..\Min.Infrastructure.Interfaces\Min.Infrastructure.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
