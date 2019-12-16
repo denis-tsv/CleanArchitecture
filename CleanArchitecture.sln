@@ -53,8 +53,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Max.Infrastructure.Interfac
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Max.UseCases", "Maximum\Max.UseCases\Max.UseCases.csproj", "{C165F0F3-BD2F-466B-87E0-9FD7FE3453B1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Max.Controllers", "Minimum\Max.Controllers\Max.Controllers.csproj", "{3D6F89EB-FAF8-4865-B3F3-989A94685D56}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Max.Infrastructure.Implementation", "Maximum\Max.Infrastructure.Implementation\Max.Infrastructure.Implementation.csproj", "{63BD0820-ECA0-4C1B-BF16-6175009C2186}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Max.DataAccess.MsSql", "Maximum\Max.DataAccess.MsSql\Max.DataAccess.MsSql.csproj", "{7BD5C151-AF19-4193-93BF-06A67E2BBDDB}"
@@ -67,7 +65,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Max.Tests", "Maximum\Max.Te
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{1A0C5AD4-F52F-4CC5-86C7-43E867DDC807}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitectureAnalyzer", "Maximum\CleanArchitectureAnalyzer\CleanArchitectureAnalyzer\CleanArchitectureAnalyzer.csproj", "{0D7F024B-AE86-47E0-89E1-8833E290FBD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitectureAnalyzer", "Maximum\CleanArchitectureAnalyzer\CleanArchitectureAnalyzer\CleanArchitectureAnalyzer.csproj", "{0D7F024B-AE86-47E0-89E1-8833E290FBD7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitectureAnalyzer.Vsix", "Maximum\CleanArchitectureAnalyzer\CleanArchitectureAnalyzer.Vsix\CleanArchitectureAnalyzer.Vsix.csproj", "{4602B941-BB39-444E-9BE4-C5B16BFBEDD8}"
 EndProject
@@ -75,6 +73,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{B15FF0E4-9
 	ProjectSection(SolutionItems) = preProject
 		Maximum\Docs\AssemblyStatistic.xlsx = Maximum\Docs\AssemblyStatistic.xlsx
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Max.Controllers", "Maximum\Max.Controllers\Max.Controllers.csproj", "{6DFACF92-0DDC-4906-9EBA-740E1EB11CBA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -134,10 +134,6 @@ Global
 		{C165F0F3-BD2F-466B-87E0-9FD7FE3453B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C165F0F3-BD2F-466B-87E0-9FD7FE3453B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C165F0F3-BD2F-466B-87E0-9FD7FE3453B1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3D6F89EB-FAF8-4865-B3F3-989A94685D56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3D6F89EB-FAF8-4865-B3F3-989A94685D56}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3D6F89EB-FAF8-4865-B3F3-989A94685D56}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3D6F89EB-FAF8-4865-B3F3-989A94685D56}.Release|Any CPU.Build.0 = Release|Any CPU
 		{63BD0820-ECA0-4C1B-BF16-6175009C2186}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{63BD0820-ECA0-4C1B-BF16-6175009C2186}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63BD0820-ECA0-4C1B-BF16-6175009C2186}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -166,6 +162,10 @@ Global
 		{4602B941-BB39-444E-9BE4-C5B16BFBEDD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4602B941-BB39-444E-9BE4-C5B16BFBEDD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4602B941-BB39-444E-9BE4-C5B16BFBEDD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DFACF92-0DDC-4906-9EBA-740E1EB11CBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DFACF92-0DDC-4906-9EBA-740E1EB11CBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DFACF92-0DDC-4906-9EBA-740E1EB11CBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DFACF92-0DDC-4906-9EBA-740E1EB11CBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -194,7 +194,6 @@ Global
 		{7546ABED-9FDA-4ABF-99E4-0A3F0C777525} = {7CECB96D-F201-454A-AE66-33074DFF2FF2}
 		{89617164-1AD3-4B40-87A3-9F6BAE9DA016} = {7CECB96D-F201-454A-AE66-33074DFF2FF2}
 		{C165F0F3-BD2F-466B-87E0-9FD7FE3453B1} = {E738718A-433E-4B62-B454-DD194D07266D}
-		{3D6F89EB-FAF8-4865-B3F3-989A94685D56} = {09CBC943-DC2C-4BD8-9B94-A5FEDAE1CF3C}
 		{63BD0820-ECA0-4C1B-BF16-6175009C2186} = {2AD3E48B-4D86-4CFA-8E87-4B00097865B3}
 		{7BD5C151-AF19-4193-93BF-06A67E2BBDDB} = {2AD3E48B-4D86-4CFA-8E87-4B00097865B3}
 		{7207480A-C73C-4C14-8437-304DDB1D8001} = {2AD3E48B-4D86-4CFA-8E87-4B00097865B3}
@@ -204,6 +203,7 @@ Global
 		{0D7F024B-AE86-47E0-89E1-8833E290FBD7} = {1A0C5AD4-F52F-4CC5-86C7-43E867DDC807}
 		{4602B941-BB39-444E-9BE4-C5B16BFBEDD8} = {1A0C5AD4-F52F-4CC5-86C7-43E867DDC807}
 		{B15FF0E4-96AD-4B11-AAF1-BF710D16DAFF} = {0D427C8E-5E4B-46D6-8E08-3C815A974AC4}
+		{6DFACF92-0DDC-4906-9EBA-740E1EB11CBA} = {09CBC943-DC2C-4BD8-9B94-A5FEDAE1CF3C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4452CF42-A23B-4E0B-858A-504F333BDED7}

@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Minimum\Max.Controllers\Max.Controllers.csproj" />
+    <ProjectReference Include="..\Max.Controllers\Max.Controllers.csproj" />
     <ProjectReference Include="..\Max.DataAccess.MsSql\Max.DataAccess.MsSql.csproj" />
     <ProjectReference Include="..\Max.DomainServices.Implementation\Max.DomainServices.Implementation.csproj" />
     <ProjectReference Include="..\Max.DomainServices.Interfaces\Max.DomainServices.Interfaces.csproj" />
