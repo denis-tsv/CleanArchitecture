@@ -1,7 +1,6 @@
 ﻿using System.Threading.Tasks;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Min.Entities;
 using Min.UseCases.Handlers.Orders.Commands.CreateOrder;
 using Min.UseCases.Handlers.Orders.Dto;
 using Min.UseCases.Handlers.Orders.Queries.GetOrder;
@@ -21,16 +20,16 @@ namespace Min.Web.Controllers
 
         // GET api/orders/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Order>> Get(int id)
+        public async Task<ActionResult<OrderDto>> Get(int id)
         {
             return await _mediator.Send(new GetOrderRequest {Id = id});
         }
 
         // POST api/orders
         [HttpPost]
-        public async Task Post([FromBody] OrderDto orderDto)
+        public async Task Post([FromBody] CreateOrderDto createOrderDto)
         {
-            await _mediator.Send(new CreateOrderRequest {OrderDto = orderDto});
+            await _mediator.Send(new CreateOrderRequest {CreateOrderDto = createOrderDto});
         }
     }
 }

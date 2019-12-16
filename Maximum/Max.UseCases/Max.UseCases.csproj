@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Max.DomainServices.Interfaces\Max.DomainServices.Interfaces.csproj" />
     <ProjectReference Include="..\Max.Entities\Max.Entities.csproj" />
     <ProjectReference Include="..\Max.Infrastructure.Interfaces\Max.Infrastructure.Interfaces.csproj" />
   </ItemGroup>

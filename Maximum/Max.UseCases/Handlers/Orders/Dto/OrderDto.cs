@@ -2,6 +2,8 @@
 {
     public class OrderDto
     {
-        public OrderItemDto[] Items { get; set; }
+        public int Id { get; set; }
+
+        public decimal Price { get; set; }
     }
 }

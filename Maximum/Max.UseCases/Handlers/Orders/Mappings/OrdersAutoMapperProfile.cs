@@ -8,7 +8,10 @@ namespace Max.UseCases.Handlers.Orders.Mappings
     {
         public OrdersAutoMapperProfile()
         {
-            CreateMap<OrderDto, Order>();
+            CreateMap<Order, OrderDto>()
+                .ForMember(x => x.Price, opt => opt.Ignore());
+
+            CreateMap<CreateOrderDto, Order>();
             CreateMap<OrderItemDto, OrderItem>();
         }
     }

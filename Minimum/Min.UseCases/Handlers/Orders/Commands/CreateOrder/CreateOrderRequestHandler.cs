@@ -30,7 +30,7 @@ namespace Min.UseCases.Handlers.Orders.Commands.CreateOrder
 
         protected override async Task Handle(CreateOrderRequest request, CancellationToken cancellationToken)
         {
-            var order = _mapper.Map<Order>(request.OrderDto);
+            var order = _mapper.Map<Order>(request.CreateOrderDto);
             order.CreationDate = DateTime.Now;
 
             _dbContext.Orders.Add(order);
