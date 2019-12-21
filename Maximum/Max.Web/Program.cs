@@ -1,8 +1,8 @@
 ﻿using FluentScheduler;
 using Max.Infrastructure.Implementation.BackgroundJobs;
-using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
 namespace Max.Web
@@ -11,23 +11,26 @@ namespace Max.Web
     {
         public static void Main(string[] args)
         {
-            var webHost = CreateWebHostBuilder(args).Build();
+            var host = CreateWebHostBuilder(args).Build();
 
-            JobManager.JobFactory = new JobFactory(webHost.Services);
+            JobManager.JobFactory = new JobFactory(host.Services);
             JobManager.Initialize(new FluentSchedulerRegistry());
             JobManager.JobException += info =>
             {
-                var logger = webHost.Services.GetRequiredService<ILogger<Program>>();
+                var logger = host.Services.GetRequiredService<ILogger<Program>>();
                 logger.LogError(info.Exception, "Unhandled exception in job");
             };
 
             //AssemblyStatisticCalculator.Calculate();
             
-            webHost.Run();
+            host.Run();
         }
 
-        public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
-            WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>();
+        public static IHostBuilder CreateWebHostBuilder(string[] args) =>
+            Host.CreateDefaultBuilder(args)
+                .ConfigureWebHostDefaults(webBuilder =>
+                {
+                    webBuilder.UseStartup<Startup>();
+                });
     }
 }
