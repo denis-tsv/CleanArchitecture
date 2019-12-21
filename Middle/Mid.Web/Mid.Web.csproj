@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="FluentScheduler" Version="5.3.0" />
+    <PackageReference Include="MediatR" Version="7.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mid.DataAccess.MsSql\Mid.DataAccess.MsSql.csproj" />
+    <ProjectReference Include="..\Mid.Entities\Mid.Entities.csproj" />
+    <ProjectReference Include="..\Mid.Infrastructure.Implementation\Mid.Infrastructure.Implementation.csproj" />
+    <ProjectReference Include="..\Mid.Infrastructure.Interfaces\Mid.Infrastructure.Interfaces.csproj" />
+    <ProjectReference Include="..\Mid.UseCases\Mid.UseCases.csproj" />
+    <ProjectReference Include="..\Mid.Utils\Mid.Utils.csproj" />
+  </ItemGroup>
+
+
+</Project>

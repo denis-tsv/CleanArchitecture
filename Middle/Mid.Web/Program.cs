@@ -1,11 +1,11 @@
-﻿using FluentScheduler;
-using Max.Infrastructure.Implementation.BackgroundJobs;
+using FluentScheduler;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Mid.Infrastructure.Implementation.BackgroundJobs;
 
-namespace Max.Web
+namespace Mid.Web
 {
     public class Program
     {
@@ -21,8 +21,6 @@ namespace Max.Web
                 logger.LogError(info.Exception, "Unhandled exception in job");
             };
 
-            //AssemblyStatisticCalculator.Calculate();
-            
             host.Run();
         }
 

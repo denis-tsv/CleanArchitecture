@@ -39,8 +39,7 @@ namespace Max.Web
             services.AddOptions();
             services.Configure<EmailOptions>(Configuration.GetSection("EmailOptions"));
 
-            services.AddScoped<IDbContext>(factory => factory.GetRequiredService<AppDbContext>());
-            services.AddDbContext<AppDbContext>(options =>
+            services.AddDbContext<IDbContext, AppDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("MsSqlConnection")));
 
             services.AddScoped<IOrdersService, OrdersService>();

@@ -11,7 +11,7 @@ namespace Min.Web
     {
         public static void Main(string[] args)
         {
-            var host = CreateWebHostBuilder(args).Build();
+            var host = CreateHostBuilder(args).Build();
 
             JobManager.JobFactory = new JobFactory(host.Services);
             JobManager.Initialize(new FluentSchedulerRegistry());
@@ -24,7 +24,7 @@ namespace Min.Web
             host.Run();
         }
 
-        public static IHostBuilder CreateWebHostBuilder(string[] args) =>
+        public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {

@@ -1,22 +1,17 @@
-﻿using AutoMapper;
-using MediatR;
+using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Min.DataAccess.MsSql;
-using Min.Infrastructure.Interfaces.DataAccess;
-using Min.Infrastructure.Interfaces.Options;
-using Min.Infrastructure.Interfaces.Services;
-using Min.UseCases.Handlers.Orders.Commands.CreateOrder;
-using Min.UseCases.Handlers.Orders.Mappings;
-using Min.Web.BackgroundJobs;
-using Min.Web.Services;
-using Min.Web.Utils;
+using Mid.DataAccess.MsSql;
+using Mid.Infrastructure.Implementation;
+using Mid.UseCases;
+using Mid.UseCases.Handlers.Orders.Mappings;
+using Mid.Utils.Modules;
+using Mid.Web.Utils;
 
-namespace Min.Web
+namespace Mid.Web
 {
     public class Startup
     {
@@ -31,18 +26,12 @@ namespace Min.Web
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddAutoMapper(typeof(OrdersAutoMapperProfile));
-            services.AddMediatR(typeof(CreateOrderRequest));
-            
+
             services.AddOptions();
-            services.Configure<EmailOptions>(Configuration.GetSection("EmailOptions"));
-
-            services.AddDbContext<IDbContext, AppDbContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("MsSqlConnection")));
-
-            services.AddScoped<ICurrentUserService, CurrentUserService>();
-            services.AddScoped<IEmailService, EmailService>();
-
-            services.AddTransient<SendEmailsJob>();
+            
+            services.RegisterModule<DataAccessModule>(Configuration);
+            services.RegisterModule<InfrastructureModule>(Configuration);
+            services.RegisterModule<UseCasesModule>(Configuration);
 
             services.AddHttpContextAccessor();
 
@@ -70,4 +59,3 @@ namespace Min.Web
         }
     }
 }
-
