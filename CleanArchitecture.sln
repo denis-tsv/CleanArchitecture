@@ -80,25 +80,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Middle", "Middle", "{518E91
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 Utils", "0 Utils", "{82E2E645-C4DF-476A-8DE7-FF885BC660CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mid.Utils", "Middle\Mid.Utils\Mid.Utils.csproj", "{82F83A03-2391-4443-9A50-45BCBA69D6AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mid.Utils", "Middle\Mid.Utils\Mid.Utils.csproj", "{82F83A03-2391-4443-9A50-45BCBA69D6AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mid.Infrastructure.Interfaces", "Middle\Mid.Infrastructure.Interfaces\Mid.Infrastructure.Interfaces.csproj", "{E0F9EE9B-A224-47A8-8093-5915D70484C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mid.Infrastructure.Interfaces", "Middle\Mid.Infrastructure.Interfaces\Mid.Infrastructure.Interfaces.csproj", "{E0F9EE9B-A224-47A8-8093-5915D70484C0}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mid.Entities", "Middle\Mid.Entities\Mid.Entities.csproj", "{05D4A0AF-F2C9-4DF5-AC54-7F2D77BD8DE8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Entities", "1 Entities", "{7B1B0E1C-902F-4F86-A492-33101565EFA6}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 UseCases", "3 UseCases", "{E056383E-1222-4D46-B06C-9F6C8F66E02D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 UseCases", "2 UseCases", "{E056383E-1222-4D46-B06C-9F6C8F66E02D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mid.UseCases", "Middle\Mid.UseCases\Mid.UseCases.csproj", "{58E420BE-7672-44A2-8722-0FCCE78914C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mid.UseCases", "Middle\Mid.UseCases\Mid.UseCases.csproj", "{58E420BE-7672-44A2-8722-0FCCE78914C0}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mid.DataAccess.MsSql", "Middle\Mid.DataAccess.MsSql\Mid.DataAccess.MsSql.csproj", "{36E877D9-2B39-49F6-865D-425F5D2FE49D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mid.Web", "Middle\Mid.Web\Mid.Web.csproj", "{BA850FB2-0F60-48C3-8E32-C9165D1EB7A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mid.Web", "Middle\Mid.Web\Mid.Web.csproj", "{BA850FB2-0F60-48C3-8E32-C9165D1EB7A5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 Frameworks", "4 Frameworks", "{C84BDC9E-DFFE-4D94-8F32-437C31179A52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mid.Infrastructure.Implementation", "Middle\Mid.Infrastructure.Implementation\Mid.Infrastructure.Implementation.csproj", "{A6B2F08A-8D63-4951-BE92-B861DCF4F9EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mid.Infrastructure.Implementation", "Middle\Mid.Infrastructure.Implementation\Mid.Infrastructure.Implementation.csproj", "{A6B2F08A-8D63-4951-BE92-B861DCF4F9EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 Controllers", "3 Controllers", "{BD78391B-DA6F-4B4A-A11B-ED6E5A67F2B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -267,6 +269,7 @@ Global
 		{BA850FB2-0F60-48C3-8E32-C9165D1EB7A5} = {C84BDC9E-DFFE-4D94-8F32-437C31179A52}
 		{C84BDC9E-DFFE-4D94-8F32-437C31179A52} = {518E913E-5F8F-42B3-9F03-8C9101D11D0C}
 		{A6B2F08A-8D63-4951-BE92-B861DCF4F9EF} = {C84BDC9E-DFFE-4D94-8F32-437C31179A52}
+		{BD78391B-DA6F-4B4A-A11B-ED6E5A67F2B8} = {518E913E-5F8F-42B3-9F03-8C9101D11D0C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4452CF42-A23B-4E0B-858A-504F333BDED7}
