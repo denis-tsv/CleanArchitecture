@@ -1,6 +1,8 @@
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Reflection;
+using System.Runtime.Loader;
 using Xunit;
 
 namespace Max.Tests
@@ -12,6 +14,10 @@ namespace Max.Tests
         {
             var wrongReferences = new List<(string From, string To)>
             {
+                // nuget packages
+                ("Entities", "EntityFramework"),
+
+                //projects
                 ("UseCases", "DataAccess"),
                 ("UseCases", "Infrastructure.Implementation"),
                 ("UseCases", "DomainServices.Implementation"),
@@ -25,13 +31,10 @@ namespace Max.Tests
                 ("Infrastructure.Implementation", "DomainServices.Implementation"),
             };
 
-            var hostAssembly = Assembly.Load("Max.Web");
-            var assemblies = hostAssembly
-                .GetReferencedAssemblies()
-                .Where(x => x.Name.StartsWith("Max"))
-                .Select(Assembly.Load)
+            var location = Assembly.GetExecutingAssembly().Location;
+            var assemblies = Directory.EnumerateFiles(Path.GetDirectoryName(location), "Max*.dll")
+                .Select(AssemblyLoadContext.Default.LoadFromAssemblyPath)
                 .ToList();
-            assemblies.Add(hostAssembly);
 
             foreach (var layer in wrongReferences)
             {

@@ -8,10 +8,14 @@ using Microsoft.CodeAnalysis.Diagnostics;
 namespace CleanArchitectureAnalyzer
 {
     [DiagnosticAnalyzer(LanguageNames.CSharp)]
-    public class CleanArchitectureAnalyzerAnalyzer : DiagnosticAnalyzer
+    public class CleanArchitectureDiagnosticAnalyzer : DiagnosticAnalyzer
     {
         private readonly List<(string From, string To)> _wrongReferences = new List<(string, string)>
         {
+            //nuget packages
+            ( "Entities", "EntityFramework"), 
+
+            //projects
             ( "UseCases", "DataAccess"),
             ( "UseCases", "Infrastructure.Implementation"),
             ( "UseCases", "DomainServices.Implementation"),
