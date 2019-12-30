@@ -1,20 +1,21 @@
-﻿using System.Threading;
+﻿using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 using AutoMapper;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
-using Mid.Infrastructure.Interfaces.DataAccess;
-using Mid.UseCases.Exceptions;
-using Mid.UseCases.Handlers.Orders.Dto;
+using NotClean.DataAccess;
+using NotClean.Handlers.Exceptions;
+using NotClean.Handlers.Orders.Dto;
 
-namespace Mid.UseCases.Handlers.Orders.Queries.GetOrder
+namespace NotClean.Handlers.Orders.Queries.GetOrder
 {
-    internal class GetOrderRequestHandler : IRequestHandler<GetOrderRequest, OrderDto>
+    public class GetOrderRequestHandler : IRequestHandler<GetOrderRequest, OrderDto>
     {
-        private readonly IDbContext _dbContext;
+        private readonly AppDbContext _dbContext;
         private readonly IMapper _mapper;
 
-        public GetOrderRequestHandler(IDbContext dbContext, IMapper mapper)
+        public GetOrderRequestHandler(AppDbContext dbContext, IMapper mapper)
         {
             _dbContext = dbContext;
             _mapper = mapper;
@@ -24,12 +25,12 @@ namespace Mid.UseCases.Handlers.Orders.Queries.GetOrder
         {
             var order = await _dbContext.Orders.AsNoTracking()
                 .Include(x => x.Items).ThenInclude(x => x.Product)
-                .SingleOrDefaultAsync(x => x.Id ==  request.Id, cancellationToken: cancellationToken);
+                .SingleOrDefaultAsync(x => x.Id == request.Id, cancellationToken);
 
             if (order == null) throw new EntityNotFoundException();
 
             var result = _mapper.Map<OrderDto>(order);
-            result.Price = order.GetPrice();
+            result.Price = order.Items.Sum(x => x.Count * x.Product.Price);
 
             return result;
         }

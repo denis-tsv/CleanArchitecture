@@ -25,7 +25,7 @@ namespace Max.UseCases.Handlers.Orders.Queries.GetOrder
 
         public async Task<OrderDto> Handle(GetOrderRequest request, CancellationToken cancellationToken)
         {
-            var order = await _dbContext.Orders
+            var order = await _dbContext.Orders.AsNoTracking()
                 .Include(x => x.Items).ThenInclude(x => x.Product)
                 .SingleOrDefaultAsync(x => x.Id == request.Id, cancellationToken);
 

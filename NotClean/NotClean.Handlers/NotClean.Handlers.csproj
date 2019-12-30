@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="MediatR" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NotClean.DataAccess\NotClean.DataAccess.csproj" />
+    <ProjectReference Include="..\NotClean.Entities\NotClean.Entities.csproj" />
+    <ProjectReference Include="..\NotClean.Services\NotClean.Services.csproj" />
+  </ItemGroup>
+
+</Project>

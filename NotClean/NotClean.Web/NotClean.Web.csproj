@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="FluentScheduler" Version="5.3.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NotClean.DataAccess\NotClean.DataAccess.csproj" />
+    <ProjectReference Include="..\NotClean.Entities\NotClean.Entities.csproj" />
+    <ProjectReference Include="..\NotClean.Handlers\NotClean.Handlers.csproj" />
+    <ProjectReference Include="..\NotClean.Services\NotClean.Services.csproj" />
+  </ItemGroup>
+
+
+</Project>

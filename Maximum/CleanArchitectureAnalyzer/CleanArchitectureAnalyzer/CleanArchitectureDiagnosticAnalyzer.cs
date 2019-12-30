@@ -30,7 +30,8 @@ namespace CleanArchitectureAnalyzer
 
         };
 
-        private const string Category = "InvalidReference";
+        private static string Category = "InvalidReference";
+        private static string NamespaceRoot = "Max";
 
         private static readonly DiagnosticDescriptor CrossLevelReference = new DiagnosticDescriptor("CrosLvl", "Cross-level reference", "Cross-level reference", Category, DiagnosticSeverity.Error, isEnabledByDefault: true, description: "Cross-level reference");
 
@@ -48,7 +49,7 @@ namespace CleanArchitectureAnalyzer
             
             foreach (var layer in _wrongReferences)
             {
-                if (assemblyName.Contains(layer.From) && namespaceName.Contains(layer.To))
+                if (assemblyName.Contains(NamespaceRoot) && assemblyName.Contains(layer.From) && namespaceName.Contains(layer.To))
                 {
                     context.ReportDiagnostic(Diagnostic.Create(CrossLevelReference, context.Node.GetLocation()));
                 }
