@@ -3,7 +3,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using AutoMapper;
 using MediatR;
-using Mid.Entities;
+using Mid.Entities.Models;
 using Mid.Infrastructure.Interfaces.DataAccess;
 using Mid.Infrastructure.Interfaces.Services;
 

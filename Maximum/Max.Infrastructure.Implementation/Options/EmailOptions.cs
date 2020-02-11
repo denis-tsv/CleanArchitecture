@@ -1,4 +1,4 @@
-﻿namespace Max.Infrastructure.Interfaces.Options
+﻿namespace Max.Infrastructure.Implementation.Options
 {
     internal class EmailOptions
     {

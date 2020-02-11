@@ -1,4 +1,4 @@
-﻿namespace Max.Entities
+﻿namespace Mid.Entities.Models
 {
     public class Product
     {

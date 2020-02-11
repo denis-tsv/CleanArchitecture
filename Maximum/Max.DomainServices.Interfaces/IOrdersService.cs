@@ -1,4 +1,4 @@
-﻿using Max.Entities;
+﻿using Max.Entities.Models;
 
 namespace Max.DomainServices.Interfaces
 {

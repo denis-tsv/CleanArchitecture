@@ -2,6 +2,7 @@
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Min.Entities;
+using Min.Entities.Models;
 
 namespace Min.Infrastructure.Interfaces.DataAccess
 {

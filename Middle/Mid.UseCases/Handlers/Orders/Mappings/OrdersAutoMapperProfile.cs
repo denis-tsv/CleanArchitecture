@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using Mid.Entities;
+using Mid.Entities.Models;
 using Mid.UseCases.Handlers.Orders.Dto;
 
 namespace Mid.UseCases.Handlers.Orders.Mappings

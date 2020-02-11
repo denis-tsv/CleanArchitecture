@@ -1,6 +1,6 @@
 ﻿using Max.DomainServices.Interfaces;
 using System.Linq;
-using Max.Entities;
+using Max.Entities.Models;
 
 namespace Max.DomainServices.Implementation
 {

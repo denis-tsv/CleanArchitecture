@@ -1,5 +1,5 @@
 ﻿using System.Threading.Tasks;
-using Min.Entities;
+using Min.Entities.Models;
 using Min.Infrastructure.Interfaces.DataAccess;
 using Min.Infrastructure.Interfaces.Services;
 

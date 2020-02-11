@@ -3,8 +3,8 @@ using System.Linq;
 using System.Net;
 using System.Net.Mail;
 using FluentScheduler;
+using Max.Infrastructure.Implementation.Options;
 using Max.Infrastructure.Interfaces.DataAccess;
-using Max.Infrastructure.Interfaces.Options;
 using Microsoft.Extensions.Options;
 
 namespace Max.Infrastructure.Implementation.BackgroundJobs

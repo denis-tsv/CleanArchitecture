@@ -4,8 +4,8 @@ using System.Net;
 using System.Net.Mail;
 using FluentScheduler;
 using Microsoft.Extensions.Options;
+using Mid.Infrastructure.Implementation.Options;
 using Mid.Infrastructure.Interfaces.DataAccess;
-using Mid.Infrastructure.Interfaces.Options;
 
 namespace Mid.Infrastructure.Implementation.BackgroundJobs
 {

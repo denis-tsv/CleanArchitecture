@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Mid.Entities;
+using Mid.Entities.Models;
 using Mid.Infrastructure.Interfaces.DataAccess;
 
 namespace Mid.DataAccess.MsSql

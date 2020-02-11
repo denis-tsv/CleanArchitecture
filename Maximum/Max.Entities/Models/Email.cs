@@ -1,4 +1,4 @@
-﻿namespace Mid.Entities
+﻿namespace Max.Entities.Models
 {
     public class Email
     {

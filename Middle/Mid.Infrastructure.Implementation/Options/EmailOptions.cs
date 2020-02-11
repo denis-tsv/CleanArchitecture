@@ -1,4 +1,4 @@
-﻿namespace Mid.Infrastructure.Interfaces.Options
+﻿namespace Mid.Infrastructure.Implementation.Options
 {
     public class EmailOptions
     {

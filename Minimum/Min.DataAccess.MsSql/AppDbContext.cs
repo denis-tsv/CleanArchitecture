@@ -1,6 +1,7 @@
 ﻿using Min.Infrastructure.Interfaces.DataAccess;
 using Microsoft.EntityFrameworkCore;
 using Min.Entities;
+using Min.Entities.Models;
 
 namespace Min.DataAccess.MsSql
 {

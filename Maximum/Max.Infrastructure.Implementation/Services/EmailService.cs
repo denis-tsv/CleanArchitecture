@@ -1,5 +1,5 @@
 ﻿using System.Threading.Tasks;
-using Max.Entities;
+using Max.Entities.Models;
 using Max.Infrastructure.Interfaces.DataAccess;
 using Max.Infrastructure.Interfaces.Services;
 

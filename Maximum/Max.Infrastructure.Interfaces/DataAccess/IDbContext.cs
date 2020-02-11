@@ -1,6 +1,6 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
-using Max.Entities;
+using Max.Entities.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace Max.Infrastructure.Interfaces.DataAccess

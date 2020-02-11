@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Mid.Entities
+namespace Mid.Entities.Models
 {
     public class Order
     {

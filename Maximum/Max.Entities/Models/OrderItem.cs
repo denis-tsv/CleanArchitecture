@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace Mid.Entities
+namespace Max.Entities.Models
 {
     public class OrderItem
     {

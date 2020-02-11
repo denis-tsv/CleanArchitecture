@@ -1,7 +1,7 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using Mid.Entities;
+using Mid.Entities.Models;
 
 namespace Mid.Infrastructure.Interfaces.DataAccess
 {

@@ -2,7 +2,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 using AutoMapper;
-using Max.Entities;
+using Max.Entities.Models;
 using Max.Infrastructure.Interfaces.DataAccess;
 using Max.Infrastructure.Interfaces.Services;
 using MediatR;

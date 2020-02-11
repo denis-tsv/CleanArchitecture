@@ -1,4 +1,4 @@
-﻿namespace Min.Entities
+﻿namespace Min.Entities.Models
 {
     public class Email
     {

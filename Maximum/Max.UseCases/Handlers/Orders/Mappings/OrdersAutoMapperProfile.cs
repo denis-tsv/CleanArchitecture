@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using Max.Entities;
+using Max.Entities.Models;
 using Max.UseCases.Handlers.Orders.Dto;
 
 namespace Max.UseCases.Handlers.Orders.Mappings

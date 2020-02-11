@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Mid.Infrastructure.Implementation.BackgroundJobs;
+using Mid.Infrastructure.Implementation.Options;
 using Mid.Infrastructure.Implementation.Services;
-using Mid.Infrastructure.Interfaces.Options;
 using Mid.Infrastructure.Interfaces.Services;
 using Mid.Utils.Modules;
 
