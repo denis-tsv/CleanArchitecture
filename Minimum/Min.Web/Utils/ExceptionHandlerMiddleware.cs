@@ -25,27 +25,15 @@ namespace Min.Web.Utils
             }
             catch (EntityNotFoundException e)
             {
-                await HandleException(httpContext, e);
+                await HandleException(httpContext, HttpStatusCode.NotFound, e);
             }
         }
 
-        private async Task HandleException(HttpContext httpContext, Exception exception)
+        private async Task HandleException(HttpContext httpContext, HttpStatusCode code, Exception exception)
         {
-            var code = HttpStatusCode.InternalServerError;
-
-            var result = string.Empty;
-
-            switch (exception)
-            {
-                case EntityNotFoundException notFoundException:
-                    code = HttpStatusCode.NotFound;
-                    break;
-            }
-
             httpContext.Response.ContentType = "application/json";
             httpContext.Response.StatusCode = (int)code;
-
-            await httpContext.Response.WriteAsync(result);
+            await httpContext.Response.WriteAsync(exception.Message);
         }
     }
 
