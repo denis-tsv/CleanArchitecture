@@ -15,7 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Ultra.AdminApi.ApplicationServices.Interfaces\Ultra.AdminApi.ApplicationServices.Interfaces.csproj" />
-    <ProjectReference Include="..\Ultra.Entities\Ultra.Entities.csproj" />
+    <ProjectReference Include="..\Ultra.Entities\Ultra.Domain.Entities.csproj" />
     <ProjectReference Include="..\Ultra.Infrastructure.DataAccess.Interfaces\Ultra.Infrastructure.DataAccess.Interfaces.csproj" />
     <ProjectReference Include="..\Ultra.Infrastructure.ServiceBus.Interfaces\Ultra.Infrastructure.ServiceBus.Interfaces.csproj" />
   </ItemGroup>

@@ -116,9 +116,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Utils", "Ultra\Ultra.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Entities", "1 Entities", "{D019A3F7-F14E-4B11-BAD6-05D1D63918DF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Entities", "Ultra\Ultra.Entities\Ultra.Entities.csproj", "{4E516FF5-7815-4627-B090-862759D48997}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Domain.Entities", "Ultra\Ultra.Entities\Ultra.Domain.Entities.csproj", "{4E516FF5-7815-4627-B090-862759D48997}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.DomainServices.Interfaces", "Ultra\Ultra.DomainServices.Interfaces\Ultra.DomainServices.Interfaces.csproj", "{3247C2A5-9FE4-4471-937D-12189AFCB91D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Domain.Services.Interfaces", "Ultra\Ultra.DomainServices.Interfaces\Ultra.Domain.Services.Interfaces.csproj", "{3247C2A5-9FE4-4471-937D-12189AFCB91D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.1 Integrations Interfaces (Output ports)", "2.1 Integrations Interfaces (Output ports)", "{8FE514D6-B52D-45B8-9061-788C37E26FDD}"
 EndProject
@@ -126,7 +126,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.2 Infrastructure Interfac
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Infrastructure.WebHost.Interfaces", "Ultra\Ultra.Infrastructure.WebHost.Interfaces\Ultra.Infrastructure.WebHost.Interfaces.csproj", "{2F855F3B-4E5B-415A-8D6B-7F4363B87B9E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.DomainServices.Implementation", "Ultra\Ultra.DomainServices.Implementation\Ultra.DomainServices.Implementation.csproj", "{05EC4CBF-8BA6-47E6-BE59-AD3F4FB6F21F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Domain.Services.Implementation", "Ultra\Ultra.DomainServices.Implementation\Ultra.Domain.Services.Implementation.csproj", "{05EC4CBF-8BA6-47E6-BE59-AD3F4FB6F21F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Infrastructure.DataAccess.Interfaces", "Ultra\Ultra.Infrastructure.DataAccess.Interfaces\Ultra.Infrastructure.DataAccess.Interfaces.csproj", "{9EFF6DB1-87EC-4AE2-ABE9-2E5CB2210F87}"
 EndProject

@@ -11,7 +11,7 @@
     <ProjectReference Include="..\Ultra.AdminApi.Controllers\Ultra.AdminApi.Controllers.csproj" />
     <ProjectReference Include="..\Ultra.ApplicationServices.Implementation\Ultra.Common.ApplicationServices.Implementation.csproj" />
     <ProjectReference Include="..\Ultra.BackgroundJobs\Ultra.BackgroundJobs.csproj" />
-    <ProjectReference Include="..\Ultra.DomainServices.Implementation\Ultra.DomainServices.Implementation.csproj" />
+    <ProjectReference Include="..\Ultra.DomainServices.Implementation\Ultra.Domain.Services.Implementation.csproj" />
     <ProjectReference Include="..\Ultra.DownloadService.Controllers\Ultra.DownloadService.Controllers.csproj" />
     <ProjectReference Include="..\Ultra.FrontendApi.Controllers\Ultra.FrontendApi.Controllers.csproj" />
     <ProjectReference Include="..\Ultra.Infrastructure.BlobStorage.Implementation\Ultra.Infrastructure.BlobStorage.Implementation.Azure.csproj" />

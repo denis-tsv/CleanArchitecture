@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Ultra.Entities\Ultra.Entities.csproj" />
+    <ProjectReference Include="..\Ultra.Entities\Ultra.Domain.Entities.csproj" />
   </ItemGroup>
 
 </Project>

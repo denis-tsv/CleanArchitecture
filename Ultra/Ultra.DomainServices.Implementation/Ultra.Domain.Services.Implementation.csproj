@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Ultra.DomainServices.Interfaces\Ultra.DomainServices.Interfaces.csproj" />
+    <ProjectReference Include="..\Ultra.DomainServices.Interfaces\Ultra.Domain.Services.Interfaces.csproj" />
   </ItemGroup>
 
 </Project>
