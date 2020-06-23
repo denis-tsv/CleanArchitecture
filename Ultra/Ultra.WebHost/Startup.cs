@@ -28,6 +28,8 @@ namespace Ultra.WebHost
         {
             services.AddControllers()
                 .AddApplicationPart(typeof(ProductsController).Assembly);
+
+            //TODO add infrastructure Reporting Database, Elasticsearch
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
