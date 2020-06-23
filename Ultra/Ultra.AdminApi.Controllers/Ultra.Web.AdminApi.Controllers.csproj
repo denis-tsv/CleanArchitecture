@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Ultra.DownloadService.UseCases\Ultra.DownloadService.UseCases.csproj" />
+    <ProjectReference Include="..\Ultra.AdminApi.UseCases\Ultra.Web.AdminApi.UseCases.csproj" />
   </ItemGroup>
 
 </Project>

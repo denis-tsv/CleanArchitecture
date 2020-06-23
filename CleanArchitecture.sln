@@ -152,9 +152,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Background Jobs", "Backgrou
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External Download Service Integration", "External Download Service Integration", "{5291EDF0-DE12-48B1-B80E-2C3AF61AEB62}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.AdminApi.Controllers", "Ultra\Ultra.AdminApi.Controllers\Ultra.AdminApi.Controllers.csproj", "{13AA987E-CBC4-4F74-86FD-4D65EB61AD9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Web.AdminApi.Controllers", "Ultra\Ultra.AdminApi.Controllers\Ultra.Web.AdminApi.Controllers.csproj", "{13AA987E-CBC4-4F74-86FD-4D65EB61AD9F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.AdminApi.UseCases", "Ultra\Ultra.AdminApi.UseCases\Ultra.AdminApi.UseCases.csproj", "{8F5FDAE3-EB9A-4E9C-8127-37D107AA482E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Web.AdminApi.UseCases", "Ultra\Ultra.AdminApi.UseCases\Ultra.Web.AdminApi.UseCases.csproj", "{8F5FDAE3-EB9A-4E9C-8127-37D107AA482E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 Controllers", "5 Controllers", "{0421616F-C7C5-4054-83C4-A165C7F2E404}"
 EndProject
@@ -168,37 +168,37 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend for frontend", "Bac
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Input ports and adapters", "Input ports and adapters", "{C7546D07-9765-461B-A245-55CC9B4D7957}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.FrontendApi.Controllers", "Ultra\Ultra.FrontendApi.Controllers\Ultra.FrontendApi.Controllers.csproj", "{808F902C-B8E2-40C6-A374-72D37685B786}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Web.FrontendApi.Controllers", "Ultra\Ultra.FrontendApi.Controllers\Ultra.Web.FrontendApi.Controllers.csproj", "{808F902C-B8E2-40C6-A374-72D37685B786}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.FrontendApi.UseCases", "Ultra\Ultra.FrontendApi.UseCases\Ultra.FrontendApi.UseCases.csproj", "{0B07597C-A6BE-4FBB-ACCB-0D0D3BEF0549}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Web.FrontendApi.UseCases", "Ultra\Ultra.FrontendApi.UseCases\Ultra.Web.FrontendApi.UseCases.csproj", "{0B07597C-A6BE-4FBB-ACCB-0D0D3BEF0549}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.MobileApi.Controllers", "Ultra\Ultra.MobileApi.Controllers\Ultra.MobileApi.Controllers.csproj", "{3B5B1F87-30B9-45C2-920C-6FF5FD5BF1C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Web.MobileApi.Controllers", "Ultra\Ultra.MobileApi.Controllers\Ultra.Web.MobileApi.Controllers.csproj", "{3B5B1F87-30B9-45C2-920C-6FF5FD5BF1C3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.MobileApi.UseCases", "Ultra\Ultra.MobileApi.UseCases\Ultra.MobileApi.UseCases.csproj", "{E54912ED-51B9-4DD8-BBFD-37A6C7D53C81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Web.MobileApi.UseCases", "Ultra\Ultra.MobileApi.UseCases\Ultra.Web.MobileApi.UseCases.csproj", "{E54912ED-51B9-4DD8-BBFD-37A6C7D53C81}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.AdminApi.ApplicationServices.Interfaces", "Ultra\Ultra.AdminApi.ApplicationServices.Interfaces\Ultra.AdminApi.ApplicationServices.Interfaces.csproj", "{8043F35F-6D61-423F-BEAA-DE0138D8DEAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Web.AdminApi.ApplicationServices.Interfaces", "Ultra\Ultra.AdminApi.ApplicationServices.Interfaces\Ultra.Web.AdminApi.ApplicationServices.Interfaces.csproj", "{8043F35F-6D61-423F-BEAA-DE0138D8DEAC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 Application Services", "3 Application Services", "{C64CDF60-A586-408D-BEE5-5C3CF2A053A4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.AdminApi.ApplicationServices.Implementation", "Ultra\Ultra.AdminApi.ApplicationServices.Implementation\Ultra.AdminApi.ApplicationServices.Implementation.csproj", "{7D98EB32-8033-4563-9209-A38E1F3CB45D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Web.AdminApi.ApplicationServices.Implementation", "Ultra\Ultra.AdminApi.ApplicationServices.Implementation\Ultra.Web.AdminApi.ApplicationServices.Implementation.csproj", "{7D98EB32-8033-4563-9209-A38E1F3CB45D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6.2 Infrastructure Implementation", "6.2 Infrastructure Implementation", "{F41DFF78-3005-46A9-AF9B-A00735495815}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6.1 Integrations Implementation (Output adapters)", "6.1 Integrations Implementation (Output adapters)", "{7B830064-7ADC-4343-9FC1-D1097A0F9A36}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.PublicApi.Controllers", "Ultra\Ultra.PublicApi.Controllers\Ultra.PublicApi.Controllers.csproj", "{3CDE3D4F-74A3-4344-BACC-F784AE4E0B0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Web.PublicApi.Controllers", "Ultra\Ultra.PublicApi.Controllers\Ultra.Web.PublicApi.Controllers.csproj", "{3CDE3D4F-74A3-4344-BACC-F784AE4E0B0D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.PublicApi.UseCases", "Ultra\Ultra.PublicApi.UseCases\Ultra.PublicApi.UseCases.csproj", "{420AD639-A790-4E28-88EA-5279F57DEC0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Web.PublicApi.UseCases", "Ultra\Ultra.PublicApi.UseCases\Ultra.Web.PublicApi.UseCases.csproj", "{420AD639-A790-4E28-88EA-5279F57DEC0F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.DownloadService.Controllers", "Ultra\Ultra.DownloadService.Controllers\Ultra.DownloadService.Controllers.csproj", "{015479F2-CBB9-4FD3-B396-433F5B262C4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Web.DownloadService.Controllers", "Ultra\Ultra.DownloadService.Controllers\Ultra.Web.DownloadService.Controllers.csproj", "{015479F2-CBB9-4FD3-B396-433F5B262C4A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.DownloadService.UseCases", "Ultra\Ultra.DownloadService.UseCases\Ultra.DownloadService.UseCases.csproj", "{94AF8C7C-9BA9-45A0-828D-7AD074FE6B6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Web.DownloadService.UseCases", "Ultra\Ultra.DownloadService.UseCases\Ultra.Web.DownloadService.UseCases.csproj", "{94AF8C7C-9BA9-45A0-828D-7AD074FE6B6A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.BackgroundJobs.UseCases", "Ultra\Ultra.BackgroundJobs.UseCases\Ultra.BackgroundJobs.UseCases.csproj", "{1965658D-9C66-4DBF-9F7C-27BCB1E32918}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Web.BackgroundJobs.UseCases", "Ultra\Ultra.BackgroundJobs.UseCases\Ultra.Web.BackgroundJobs.UseCases.csproj", "{1965658D-9C66-4DBF-9F7C-27BCB1E32918}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.BackgroundJobs", "Ultra\Ultra.BackgroundJobs\Ultra.BackgroundJobs.csproj", "{1349A3D9-15C9-42F5-8DF6-FCCF6E0892F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Web.BackgroundJobs", "Ultra\Ultra.BackgroundJobs\Ultra.Web.BackgroundJobs.csproj", "{1349A3D9-15C9-42F5-8DF6-FCCF6E0892F5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.WebHost", "Ultra\Ultra.WebHost\Ultra.WebHost.csproj", "{CFED8816-6EF5-40D7-8853-01E9BF3D12D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Web.Hosting", "Ultra\Ultra.WebHost\Ultra.Web.Hosting.csproj", "{CFED8816-6EF5-40D7-8853-01E9BF3D12D0}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Infrastructure.BlobStorage.Implementation.Azure", "Ultra\Ultra.Infrastructure.BlobStorage.Implementation\Ultra.Infrastructure.BlobStorage.Implementation.Azure.csproj", "{F7A5A43F-4015-4524-82E6-B8B51E579C62}"
 EndProject
@@ -212,7 +212,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Integrations.Emailing
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.2 WebJob", "7.2 WebJob", "{B5D55C6D-C238-44E3-9595-7BABFCCBC174}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.WebJob", "Ultra\Ultra.WebJob\Ultra.WebJob.csproj", "{85D69CC7-F179-40C3-9D75-163D150F398A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.WebJob.Hosting", "Ultra\Ultra.WebJob\Ultra.WebJob.Hosting.csproj", "{85D69CC7-F179-40C3-9D75-163D150F398A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.WebJob.UseCases", "Ultra\Ultra.WebJob.UseCases\Ultra.WebJob.UseCases.csproj", "{A4F6FFC2-6CFA-47FD-9EE6-AA253D4AEC9A}"
 EndProject

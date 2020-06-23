@@ -7,13 +7,13 @@
   <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
 
   <ItemGroup>
-    <ProjectReference Include="..\Ultra.AdminApi.ApplicationServices.Implementation\Ultra.AdminApi.ApplicationServices.Implementation.csproj" />
-    <ProjectReference Include="..\Ultra.AdminApi.Controllers\Ultra.AdminApi.Controllers.csproj" />
+    <ProjectReference Include="..\Ultra.AdminApi.ApplicationServices.Implementation\Ultra.Web.AdminApi.ApplicationServices.Implementation.csproj" />
+    <ProjectReference Include="..\Ultra.AdminApi.Controllers\Ultra.Web.AdminApi.Controllers.csproj" />
     <ProjectReference Include="..\Ultra.ApplicationServices.Implementation\Ultra.Common.ApplicationServices.Implementation.csproj" />
-    <ProjectReference Include="..\Ultra.BackgroundJobs\Ultra.BackgroundJobs.csproj" />
+    <ProjectReference Include="..\Ultra.BackgroundJobs\Ultra.Web.BackgroundJobs.csproj" />
     <ProjectReference Include="..\Ultra.DomainServices.Implementation\Ultra.Domain.Services.Implementation.csproj" />
-    <ProjectReference Include="..\Ultra.DownloadService.Controllers\Ultra.DownloadService.Controllers.csproj" />
-    <ProjectReference Include="..\Ultra.FrontendApi.Controllers\Ultra.FrontendApi.Controllers.csproj" />
+    <ProjectReference Include="..\Ultra.DownloadService.Controllers\Ultra.Web.DownloadService.Controllers.csproj" />
+    <ProjectReference Include="..\Ultra.FrontendApi.Controllers\Ultra.Web.FrontendApi.Controllers.csproj" />
     <ProjectReference Include="..\Ultra.Infrastructure.BlobStorage.Implementation\Ultra.Infrastructure.BlobStorage.Implementation.Azure.csproj" />
     <ProjectReference Include="..\Ultra.Infrastructure.DataAccess.Implementation\Ultra.Infrastructure.DataAccess.Implementation.MsSql.csproj" />
     <ProjectReference Include="..\Ultra.Infrastructure.ServiceBus.Implementation\Ultra.Infrastructure.ServiceBus.Implementation.Azure.csproj" />

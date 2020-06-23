@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Ultra.PublicApi.UseCases\Ultra.PublicApi.UseCases.csproj" />
+    <ProjectReference Include="..\Ultra.AdminApi.ApplicationServices.Interfaces\Ultra.Web.AdminApi.ApplicationServices.Interfaces.csproj" />
   </ItemGroup>
 
 </Project>
