@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Max.Entities.Models
+namespace Ultra.Entities.Models
 {
     public class Order
     {
