@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace Ultra.Infrastructure.ServiceBus.Interfaces
+namespace Ultra.Common.Infrastructure.ServiceBus.Interfaces
 {
     public abstract class Message
     {

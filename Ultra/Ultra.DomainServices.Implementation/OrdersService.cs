@@ -1,8 +1,8 @@
 ﻿using System.Linq;
-using Ultra.DomainServices.Interfaces;
-using Ultra.Entities.Models;
+using Ultra.Common.Domain.Entities.Models;
+using Ultra.Common.Domain.Services.Interfaces;
 
-namespace Ultra.DomainServices.Implementation
+namespace Ultra.Common.Domain.Services.Implementation
 {
     public class OrdersService : IOrdersService
     {

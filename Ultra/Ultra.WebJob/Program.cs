@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Ultra.WebJob
+namespace Ultra.WebJob.Hosting
 {
     class Program
     {

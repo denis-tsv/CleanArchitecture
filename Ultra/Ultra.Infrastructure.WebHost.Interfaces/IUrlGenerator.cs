@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Ultra.Infrastructure.WebHost.Interfaces
+﻿namespace Ultra.Web.Infrastructure.WebHost.Interfaces
 {
     public interface IUrlGenerator
     {

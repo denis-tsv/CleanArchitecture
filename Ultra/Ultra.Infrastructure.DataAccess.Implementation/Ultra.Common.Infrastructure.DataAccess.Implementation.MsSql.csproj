@@ -9,7 +9,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Ultra.Infrastructure.DataAccess.Interfaces\Ultra.Infrastructure.DataAccess.Interfaces.csproj" />
+    <ProjectReference Include="..\Ultra.Entities\Ultra.Common.Domain.Entities.csproj" />
+    <ProjectReference Include="..\Ultra.Infrastructure.DataAccess.Interfaces\Ultra.Common.Infrastructure.DataAccess.Interfaces.csproj" />
   </ItemGroup>
 
 </Project>

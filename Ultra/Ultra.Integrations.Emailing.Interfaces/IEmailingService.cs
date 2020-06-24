@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace Ultra.Integrations.Emailing.Interfaces
+namespace Ultra.Common.Integrations.Emailing.Interfaces
 {
     public interface IEmailingService
     {

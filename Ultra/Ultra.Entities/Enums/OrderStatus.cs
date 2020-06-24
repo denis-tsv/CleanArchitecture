@@ -1,4 +1,4 @@
-﻿namespace Ultra.Entities.Enums
+﻿namespace Ultra.Common.Domain.Entities.Enums
 {
     public enum OrderStatus
     {

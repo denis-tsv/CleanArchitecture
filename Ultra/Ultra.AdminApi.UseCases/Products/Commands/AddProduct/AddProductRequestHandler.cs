@@ -1,22 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading;
+﻿using System.Threading;
 using System.Threading.Tasks;
 using AutoMapper;
 using MediatR;
-using Ultra.Entities.Models;
-using Ultra.Infrastructure.DataAccess.Interfaces;
-using Ultra.Infrastructure.ServiceBus.Interfaces;
+using Ultra.Common.Domain.Entities.Models;
+using Ultra.Common.Infrastructure.DataAccess.Interfaces;
 
-namespace Ultra.AdminApi.UseCases.Products.Commands.AddProduct
+namespace Ultra.Web.AdminApi.UseCases.Products.Commands.AddProduct
 {
     public class AddProductRequestHandler : IRequestHandler<AddProductRequest, int>
     {
-        private readonly IDbContext _dbContext;
+        private readonly ICommonDbContext _dbContext;
         private readonly IMapper _mapper;
 
-        public AddProductRequestHandler(IDbContext dbContext, IMapper mapper)
+        public AddProductRequestHandler(ICommonDbContext dbContext, IMapper mapper)
         {
             _dbContext = dbContext;
             _mapper = mapper;

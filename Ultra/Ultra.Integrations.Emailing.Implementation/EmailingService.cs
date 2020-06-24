@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
-using Ultra.Integrations.Emailing.Interfaces;
+using Ultra.Common.Integrations.Emailing.Interfaces;
 
-namespace Ultra.Integrations.Emailing.Implementation
+namespace Ultra.Common.Integrations.Emailing.Implementation
 {
     public class EmailingService : IEmailingService
     {

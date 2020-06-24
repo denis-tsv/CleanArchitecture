@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ultra.Infrastructure.DataAccess.Implementation\Ultra.Common.Infrastructure.DataAccess.Implementation.MsSql.csproj" />
+    <ProjectReference Include="..\Ultra.Reporting.Infrastructure.DataAccess.Implementation.MS\Ultra.Reporting.Infrastructure.DataAccess.Implementation.MS.csproj" />
+    <ProjectReference Include="..\Ultra.Reporting.UseCases\Ultra.Reporting.UseCases.csproj" />
+  </ItemGroup>
+
+
+</Project>

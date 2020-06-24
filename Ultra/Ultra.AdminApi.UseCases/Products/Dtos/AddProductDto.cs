@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Ultra.AdminApi.UseCases.Products.Dtos
+﻿namespace Ultra.Web.AdminApi.UseCases.Products.Dtos
 {
     public class AddProductDto
     {

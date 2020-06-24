@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Ultra.Infrastructure.WebHost.Interfaces\Ultra.Infrastructure.WebHost.Interfaces.csproj" />
+    <ProjectReference Include="..\Ultra.Infrastructure.WebHost.Interfaces\Ultra.Web.Infrastructure.WebHost.Interfaces.csproj" />
   </ItemGroup>
 
 </Project>

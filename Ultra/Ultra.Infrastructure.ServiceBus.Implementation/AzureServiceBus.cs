@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
-using Ultra.Infrastructure.ServiceBus.Interfaces;
+using Ultra.Common.Infrastructure.ServiceBus.Interfaces;
 
-namespace Ultra.Infrastructure.ServiceBus.Implementation
+namespace Ultra.Common.Infrastructure.ServiceBus.Implementation.Azure
 {
     public class AzureServiceBus : IServiceBus
     {

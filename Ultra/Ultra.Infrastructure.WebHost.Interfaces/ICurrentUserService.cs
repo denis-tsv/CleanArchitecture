@@ -1,4 +1,4 @@
-﻿namespace Ultra.Infrastructure.WebHost.Interfaces
+﻿namespace Ultra.Web.Infrastructure.WebHost.Interfaces
 {
     public interface ICurrentUserService
     {

@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
-using Ultra.AdminApi.ApplicationServices.Interfaces;
+using Ultra.Web.AdminApi.ApplicationServices.Interfaces;
 
-namespace Ultra.AdminApi.ApplicationServices.Implementation
+namespace Ultra.Web.AdminApi.ApplicationServices.Implementation
 {
     public class ApplicationService : IApplicationService
     {

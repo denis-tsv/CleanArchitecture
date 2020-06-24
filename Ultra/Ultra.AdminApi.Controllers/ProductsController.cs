@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Ultra.AdminApi.UseCases.Products.Commands.AddProduct;
-using Ultra.AdminApi.UseCases.Products.Dtos;
+using Ultra.Web.AdminApi.UseCases.Products.Commands.AddProduct;
+using Ultra.Web.AdminApi.UseCases.Products.Dtos;
 
-namespace Ultra.AdminApi.Controllers
+namespace Ultra.Web.AdminApi.Controllers
 {
     public class ProductsController: ControllerBase
     {

@@ -1,11 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Text;
 using System.Threading.Tasks;
-using Ultra.Infrastructure.BlobStorage.Interfaces;
+using Ultra.Common.Infrastructure.BlobStorage.Interfaces;
 
-namespace Ultra.Infrastructure.BlobStorage.Implementation.Azure
+namespace Ultra.Common.Infrastructure.BlobStorage.Implementation.Azure
 {
     public class AzureBlobStorage : IBlobStorage
     {

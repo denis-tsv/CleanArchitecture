@@ -11,14 +11,14 @@
     <ProjectReference Include="..\Ultra.AdminApi.Controllers\Ultra.Web.AdminApi.Controllers.csproj" />
     <ProjectReference Include="..\Ultra.ApplicationServices.Implementation\Ultra.Common.ApplicationServices.Implementation.csproj" />
     <ProjectReference Include="..\Ultra.BackgroundJobs\Ultra.Web.BackgroundJobs.csproj" />
-    <ProjectReference Include="..\Ultra.DomainServices.Implementation\Ultra.Domain.Services.Implementation.csproj" />
+    <ProjectReference Include="..\Ultra.DomainServices.Implementation\Ultra.Common.Domain.Services.Implementation.csproj" />
     <ProjectReference Include="..\Ultra.DownloadService.Controllers\Ultra.Web.DownloadService.Controllers.csproj" />
     <ProjectReference Include="..\Ultra.FrontendApi.Controllers\Ultra.Web.FrontendApi.Controllers.csproj" />
-    <ProjectReference Include="..\Ultra.Infrastructure.BlobStorage.Implementation\Ultra.Infrastructure.BlobStorage.Implementation.Azure.csproj" />
-    <ProjectReference Include="..\Ultra.Infrastructure.DataAccess.Implementation\Ultra.Infrastructure.DataAccess.Implementation.MsSql.csproj" />
-    <ProjectReference Include="..\Ultra.Infrastructure.ServiceBus.Implementation\Ultra.Infrastructure.ServiceBus.Implementation.Azure.csproj" />
-    <ProjectReference Include="..\Ultra.Infrastructure.WebHost.Implementation\Ultra.Infrastructure.WebHost.Implementation.AspNerCore.csproj" />
-    <ProjectReference Include="..\Ultra.Integrations.Emailing.Implementation\Ultra.Integrations.Emailing.Implementation.csproj" />
+    <ProjectReference Include="..\Ultra.Infrastructure.BlobStorage.Implementation\Ultra.Common.Infrastructure.BlobStorage.Implementation.Azure.csproj" />
+    <ProjectReference Include="..\Ultra.Infrastructure.DataAccess.Implementation\Ultra.Common.Infrastructure.DataAccess.Implementation.MsSql.csproj" />
+    <ProjectReference Include="..\Ultra.Infrastructure.ServiceBus.Implementation\Ultra.Common.Infrastructure.ServiceBus.Implementation.Azure.csproj" />
+    <ProjectReference Include="..\Ultra.Infrastructure.WebHost.Implementation\Ultra.Web.Infrastructure.WebHost.Implementation.AspNetCore.csproj" />
+    <ProjectReference Include="..\Ultra.Integrations.Emailing.Implementation\Ultra.Common.Integrations.Emailing.Implementation.csproj" />
   </ItemGroup>
 
 

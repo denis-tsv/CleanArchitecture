@@ -1,6 +1,6 @@
-﻿using Ultra.Entities.Models;
+﻿using Ultra.Common.Domain.Entities.Models;
 
-namespace Ultra.DomainServices.Interfaces
+namespace Ultra.Common.Domain.Services.Interfaces
 {
     public interface IOrdersService
     {

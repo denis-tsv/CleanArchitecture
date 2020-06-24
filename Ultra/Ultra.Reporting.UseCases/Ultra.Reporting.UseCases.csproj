@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ultra.Infrastructure.DataAccess.Interfaces\Ultra.Common.Infrastructure.DataAccess.Interfaces.csproj" />
+    <ProjectReference Include="..\Ultra.Reporting.Infrastructure.DataAccess.Interfaces\Ultra.Reporting.Infrastructure.DataAccess.Interfaces.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="8.0.1" />
+  </ItemGroup>
+
+</Project>

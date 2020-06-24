@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using AutoMapper;
-using Ultra.AdminApi.UseCases.Products.Dtos;
-using Ultra.Entities.Models;
+﻿using AutoMapper;
+using Ultra.Common.Domain.Entities.Models;
+using Ultra.Web.AdminApi.UseCases.Products.Dtos;
 
-namespace Ultra.AdminApi.UseCases.Products.Utils
+namespace Ultra.Web.AdminApi.UseCases.Products.Utils
 {
     public class ProductsAutoMapperProfile : Profile
     {

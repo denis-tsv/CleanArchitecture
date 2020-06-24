@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Ultra.Entities\Ultra.Domain.Entities.csproj" />
+    <ProjectReference Include="..\Ultra.Reporting.Domain.Entities\Ultra.Reporting.Domain.Entities.csproj" />
   </ItemGroup>
 
 </Project>

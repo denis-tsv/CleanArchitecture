@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Ultra.Entities\Ultra.Domain.Entities.csproj" />
+    <ProjectReference Include="..\Ultra.Infrastructure.BlobStorage.Interfaces\Ultra.Common.Infrastructure.BlobStorage.Interfaces.csproj" />
   </ItemGroup>
 
 </Project>

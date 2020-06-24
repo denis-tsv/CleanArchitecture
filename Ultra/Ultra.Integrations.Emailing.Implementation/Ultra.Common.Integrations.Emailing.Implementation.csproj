@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Ultra.Infrastructure.ServiceBus.Interfaces\Ultra.Infrastructure.ServiceBus.Interfaces.csproj" />
+    <ProjectReference Include="..\Ultra.Integrations.Emailing.Interfaces\Ultra.Common.Integrations.Emailing.Interfaces.csproj" />
   </ItemGroup>
 
 </Project>

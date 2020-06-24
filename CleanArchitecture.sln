@@ -116,25 +116,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Utils", "Ultra\Ultra.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Entities", "1 Entities", "{D019A3F7-F14E-4B11-BAD6-05D1D63918DF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Domain.Entities", "Ultra\Ultra.Entities\Ultra.Domain.Entities.csproj", "{4E516FF5-7815-4627-B090-862759D48997}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Common.Domain.Entities", "Ultra\Ultra.Entities\Ultra.Common.Domain.Entities.csproj", "{4E516FF5-7815-4627-B090-862759D48997}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Domain.Services.Interfaces", "Ultra\Ultra.DomainServices.Interfaces\Ultra.Domain.Services.Interfaces.csproj", "{3247C2A5-9FE4-4471-937D-12189AFCB91D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Common.Domain.Services.Interfaces", "Ultra\Ultra.DomainServices.Interfaces\Ultra.Common.Domain.Services.Interfaces.csproj", "{3247C2A5-9FE4-4471-937D-12189AFCB91D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.1 Integrations Interfaces (Output ports)", "2.1 Integrations Interfaces (Output ports)", "{8FE514D6-B52D-45B8-9061-788C37E26FDD}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.1 Common Integrations Interfaces (Output ports)", "2.1 Common Integrations Interfaces (Output ports)", "{8FE514D6-B52D-45B8-9061-788C37E26FDD}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.2 Infrastructure Interfaces", "2.2 Infrastructure Interfaces", "{ADF64544-764A-4335-9A71-846BFC6BEB8D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.2 Common Infrastructure Interfaces", "2.2 Common Infrastructure Interfaces", "{ADF64544-764A-4335-9A71-846BFC6BEB8D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Infrastructure.WebHost.Interfaces", "Ultra\Ultra.Infrastructure.WebHost.Interfaces\Ultra.Infrastructure.WebHost.Interfaces.csproj", "{2F855F3B-4E5B-415A-8D6B-7F4363B87B9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Web.Infrastructure.WebHost.Interfaces", "Ultra\Ultra.Infrastructure.WebHost.Interfaces\Ultra.Web.Infrastructure.WebHost.Interfaces.csproj", "{2F855F3B-4E5B-415A-8D6B-7F4363B87B9E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Domain.Services.Implementation", "Ultra\Ultra.DomainServices.Implementation\Ultra.Domain.Services.Implementation.csproj", "{05EC4CBF-8BA6-47E6-BE59-AD3F4FB6F21F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Common.Domain.Services.Implementation", "Ultra\Ultra.DomainServices.Implementation\Ultra.Common.Domain.Services.Implementation.csproj", "{05EC4CBF-8BA6-47E6-BE59-AD3F4FB6F21F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Infrastructure.DataAccess.Interfaces", "Ultra\Ultra.Infrastructure.DataAccess.Interfaces\Ultra.Infrastructure.DataAccess.Interfaces.csproj", "{9EFF6DB1-87EC-4AE2-ABE9-2E5CB2210F87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Common.Infrastructure.DataAccess.Interfaces", "Ultra\Ultra.Infrastructure.DataAccess.Interfaces\Ultra.Common.Infrastructure.DataAccess.Interfaces.csproj", "{9EFF6DB1-87EC-4AE2-ABE9-2E5CB2210F87}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Infrastructure.ServiceBus.Interfaces", "Ultra\Ultra.Infrastructure.ServiceBus.Interfaces\Ultra.Infrastructure.ServiceBus.Interfaces.csproj", "{1ABF28BD-2ACE-4383-ACFD-FEC22EC0D215}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Common.Infrastructure.ServiceBus.Interfaces", "Ultra\Ultra.Infrastructure.ServiceBus.Interfaces\Ultra.Common.Infrastructure.ServiceBus.Interfaces.csproj", "{1ABF28BD-2ACE-4383-ACFD-FEC22EC0D215}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Infrastructure.BlobStorage.Interfaces", "Ultra\Ultra.Infrastructure.BlobStorage.Interfaces\Ultra.Infrastructure.BlobStorage.Interfaces.csproj", "{630EB614-21B1-4265-BECB-0B60AE4132D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Common.Infrastructure.BlobStorage.Interfaces", "Ultra\Ultra.Infrastructure.BlobStorage.Interfaces\Ultra.Common.Infrastructure.BlobStorage.Interfaces.csproj", "{630EB614-21B1-4265-BECB-0B60AE4132D7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Integrations.Emailing.Interfaces", "Ultra\Ultra.Integrations.Emailing.Interfaces\Ultra.Integrations.Emailing.Interfaces.csproj", "{15FE95F7-EB1F-4445-9B48-B4EEF1B2EA76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Common.Integrations.Emailing.Interfaces", "Ultra\Ultra.Integrations.Emailing.Interfaces\Ultra.Common.Integrations.Emailing.Interfaces.csproj", "{15FE95F7-EB1F-4445-9B48-B4EEF1B2EA76}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 Common Application Services", "3 Common Application Services", "{147EB209-E908-4C05-9845-2F7222A84756}"
 EndProject
@@ -148,7 +148,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontendApi", "FrontendApi"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdminApi", "AdminApi", "{2B53C410-2969-4A76-9134-59BB8AC8CD04}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Background Jobs", "Background Jobs", "{CB2B905D-8728-49F7-94DC-D5820DF9DB69}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.2 Background Jobs", "2.2 Background Jobs", "{CB2B905D-8728-49F7-94DC-D5820DF9DB69}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External Download Service Integration", "External Download Service Integration", "{5291EDF0-DE12-48B1-B80E-2C3AF61AEB62}"
 EndProject
@@ -164,9 +164,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.1 WebApp", "7.1 WebApp", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MobileApi", "MobileApi", "{36CA06CE-28A0-4BF0-9933-8D29224FEBDB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend for frontend", "Backend for frontend", "{C5626C86-0574-43E0-BCFD-7AC0E165FED6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.1 Backend for frontend", "2.1 Backend for frontend", "{C5626C86-0574-43E0-BCFD-7AC0E165FED6}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Input ports and adapters", "Input ports and adapters", "{C7546D07-9765-461B-A245-55CC9B4D7957}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.3 Input ports and adapters", "2.3 Input ports and adapters", "{C7546D07-9765-461B-A245-55CC9B4D7957}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Web.FrontendApi.Controllers", "Ultra\Ultra.FrontendApi.Controllers\Ultra.Web.FrontendApi.Controllers.csproj", "{808F902C-B8E2-40C6-A374-72D37685B786}"
 EndProject
@@ -184,7 +184,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Web.AdminApi.Applicat
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6.2 Infrastructure Implementation", "6.2 Infrastructure Implementation", "{F41DFF78-3005-46A9-AF9B-A00735495815}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6.1 Integrations Implementation (Output adapters)", "6.1 Integrations Implementation (Output adapters)", "{7B830064-7ADC-4343-9FC1-D1097A0F9A36}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6.1 Common Integrations Implementation (Output adapters)", "6.1 Common Integrations Implementation (Output adapters)", "{7B830064-7ADC-4343-9FC1-D1097A0F9A36}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Web.PublicApi.Controllers", "Ultra\Ultra.PublicApi.Controllers\Ultra.Web.PublicApi.Controllers.csproj", "{3CDE3D4F-74A3-4344-BACC-F784AE4E0B0D}"
 EndProject
@@ -200,21 +200,35 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Web.BackgroundJobs", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Web.Hosting", "Ultra\Ultra.WebHost\Ultra.Web.Hosting.csproj", "{CFED8816-6EF5-40D7-8853-01E9BF3D12D0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Infrastructure.BlobStorage.Implementation.Azure", "Ultra\Ultra.Infrastructure.BlobStorage.Implementation\Ultra.Infrastructure.BlobStorage.Implementation.Azure.csproj", "{F7A5A43F-4015-4524-82E6-B8B51E579C62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Common.Infrastructure.BlobStorage.Implementation.Azure", "Ultra\Ultra.Infrastructure.BlobStorage.Implementation\Ultra.Common.Infrastructure.BlobStorage.Implementation.Azure.csproj", "{F7A5A43F-4015-4524-82E6-B8B51E579C62}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Infrastructure.DataAccess.Implementation.MsSql", "Ultra\Ultra.Infrastructure.DataAccess.Implementation\Ultra.Infrastructure.DataAccess.Implementation.MsSql.csproj", "{65E461D1-37B7-4430-B330-6535E587C0FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Common.Infrastructure.DataAccess.Implementation.MsSql", "Ultra\Ultra.Infrastructure.DataAccess.Implementation\Ultra.Common.Infrastructure.DataAccess.Implementation.MsSql.csproj", "{65E461D1-37B7-4430-B330-6535E587C0FC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Infrastructure.ServiceBus.Implementation.Azure", "Ultra\Ultra.Infrastructure.ServiceBus.Implementation\Ultra.Infrastructure.ServiceBus.Implementation.Azure.csproj", "{D342F073-C89B-4AEA-873B-AAFE709E1962}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Common.Infrastructure.ServiceBus.Implementation.Azure", "Ultra\Ultra.Infrastructure.ServiceBus.Implementation\Ultra.Common.Infrastructure.ServiceBus.Implementation.Azure.csproj", "{D342F073-C89B-4AEA-873B-AAFE709E1962}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Infrastructure.WebHost.Implementation.AspNerCore", "Ultra\Ultra.Infrastructure.WebHost.Implementation\Ultra.Infrastructure.WebHost.Implementation.AspNerCore.csproj", "{3FF3EB8A-87F2-4E5B-82A7-B12B44D88663}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Web.Infrastructure.WebHost.Implementation.AspNetCore", "Ultra\Ultra.Infrastructure.WebHost.Implementation\Ultra.Web.Infrastructure.WebHost.Implementation.AspNetCore.csproj", "{3FF3EB8A-87F2-4E5B-82A7-B12B44D88663}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Integrations.Emailing.Implementation", "Ultra\Ultra.Integrations.Emailing.Implementation\Ultra.Integrations.Emailing.Implementation.csproj", "{65DDB7A9-AC9B-4645-A0F2-57D409EC26B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Common.Integrations.Emailing.Implementation", "Ultra\Ultra.Integrations.Emailing.Implementation\Ultra.Common.Integrations.Emailing.Implementation.csproj", "{65DDB7A9-AC9B-4645-A0F2-57D409EC26B6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.2 WebJob", "7.2 WebJob", "{B5D55C6D-C238-44E3-9595-7BABFCCBC174}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.WebJob.Hosting", "Ultra\Ultra.WebJob\Ultra.WebJob.Hosting.csproj", "{85D69CC7-F179-40C3-9D75-163D150F398A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.WebJob.UseCases", "Ultra\Ultra.WebJob.UseCases\Ultra.WebJob.UseCases.csproj", "{A4F6FFC2-6CFA-47FD-9EE6-AA253D4AEC9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Common Infrastructure", "1 Common Infrastructure", "{59F668B5-490F-4D90-A2A9-6A2C59D2FE9C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.3 Reporting", "7.3 Reporting", "{BBE316E0-37EC-4FC0-9487-ECD4A570B9A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ultra.Reporting.Hosting", "Ultra\Ultra.Reporting.Hosting\Ultra.Reporting.Hosting.csproj", "{DB2083C2-3540-4A60-B695-CF9D8244D55E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ultra.Reporting.Infrastructure.DataAccess.Interfaces", "Ultra\Ultra.Reporting.Infrastructure.DataAccess.Interfaces\Ultra.Reporting.Infrastructure.DataAccess.Interfaces.csproj", "{D606A4D0-CD2F-490C-853E-E67FC6B54B1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ultra.Reporting.UseCases", "Ultra\Ultra.Reporting.UseCases\Ultra.Reporting.UseCases.csproj", "{BBE154E0-4843-4169-8CFA-3CC0B4E64DA4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultra.Reporting.Infrastructure.DataAccess.Implementation.MS", "Ultra\Ultra.Reporting.Infrastructure.DataAccess.Implementation.MS\Ultra.Reporting.Infrastructure.DataAccess.Implementation.MS.csproj", "{9EE2A992-06D0-4C8A-BE3C-EDC5CA2974DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ultra.Reporting.Domain.Entities", "Ultra\Ultra.Reporting.Domain.Entities\Ultra.Reporting.Domain.Entities.csproj", "{407B5FCE-6568-4639-BA9D-E9A190DE54DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -466,6 +480,26 @@ Global
 		{A4F6FFC2-6CFA-47FD-9EE6-AA253D4AEC9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4F6FFC2-6CFA-47FD-9EE6-AA253D4AEC9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4F6FFC2-6CFA-47FD-9EE6-AA253D4AEC9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB2083C2-3540-4A60-B695-CF9D8244D55E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB2083C2-3540-4A60-B695-CF9D8244D55E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB2083C2-3540-4A60-B695-CF9D8244D55E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB2083C2-3540-4A60-B695-CF9D8244D55E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D606A4D0-CD2F-490C-853E-E67FC6B54B1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D606A4D0-CD2F-490C-853E-E67FC6B54B1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D606A4D0-CD2F-490C-853E-E67FC6B54B1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D606A4D0-CD2F-490C-853E-E67FC6B54B1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBE154E0-4843-4169-8CFA-3CC0B4E64DA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBE154E0-4843-4169-8CFA-3CC0B4E64DA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBE154E0-4843-4169-8CFA-3CC0B4E64DA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBE154E0-4843-4169-8CFA-3CC0B4E64DA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EE2A992-06D0-4C8A-BE3C-EDC5CA2974DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EE2A992-06D0-4C8A-BE3C-EDC5CA2974DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EE2A992-06D0-4C8A-BE3C-EDC5CA2974DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EE2A992-06D0-4C8A-BE3C-EDC5CA2974DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{407B5FCE-6568-4639-BA9D-E9A190DE54DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{407B5FCE-6568-4639-BA9D-E9A190DE54DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{407B5FCE-6568-4639-BA9D-E9A190DE54DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{407B5FCE-6568-4639-BA9D-E9A190DE54DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -526,7 +560,7 @@ Global
 		{3247C2A5-9FE4-4471-937D-12189AFCB91D} = {D019A3F7-F14E-4B11-BAD6-05D1D63918DF}
 		{8FE514D6-B52D-45B8-9061-788C37E26FDD} = {DFE7354D-368B-489B-A127-9C20693FF15A}
 		{ADF64544-764A-4335-9A71-846BFC6BEB8D} = {DFE7354D-368B-489B-A127-9C20693FF15A}
-		{2F855F3B-4E5B-415A-8D6B-7F4363B87B9E} = {ADF64544-764A-4335-9A71-846BFC6BEB8D}
+		{2F855F3B-4E5B-415A-8D6B-7F4363B87B9E} = {59F668B5-490F-4D90-A2A9-6A2C59D2FE9C}
 		{05EC4CBF-8BA6-47E6-BE59-AD3F4FB6F21F} = {D019A3F7-F14E-4B11-BAD6-05D1D63918DF}
 		{9EFF6DB1-87EC-4AE2-ABE9-2E5CB2210F87} = {ADF64544-764A-4335-9A71-846BFC6BEB8D}
 		{1ABF28BD-2ACE-4383-ACFD-FEC22EC0D215} = {ADF64544-764A-4335-9A71-846BFC6BEB8D}
@@ -567,11 +601,18 @@ Global
 		{F7A5A43F-4015-4524-82E6-B8B51E579C62} = {F41DFF78-3005-46A9-AF9B-A00735495815}
 		{65E461D1-37B7-4430-B330-6535E587C0FC} = {F41DFF78-3005-46A9-AF9B-A00735495815}
 		{D342F073-C89B-4AEA-873B-AAFE709E1962} = {F41DFF78-3005-46A9-AF9B-A00735495815}
-		{3FF3EB8A-87F2-4E5B-82A7-B12B44D88663} = {F41DFF78-3005-46A9-AF9B-A00735495815}
+		{3FF3EB8A-87F2-4E5B-82A7-B12B44D88663} = {59F668B5-490F-4D90-A2A9-6A2C59D2FE9C}
 		{65DDB7A9-AC9B-4645-A0F2-57D409EC26B6} = {7B830064-7ADC-4343-9FC1-D1097A0F9A36}
 		{B5D55C6D-C238-44E3-9595-7BABFCCBC174} = {DFE7354D-368B-489B-A127-9C20693FF15A}
 		{85D69CC7-F179-40C3-9D75-163D150F398A} = {B5D55C6D-C238-44E3-9595-7BABFCCBC174}
 		{A4F6FFC2-6CFA-47FD-9EE6-AA253D4AEC9A} = {B5D55C6D-C238-44E3-9595-7BABFCCBC174}
+		{59F668B5-490F-4D90-A2A9-6A2C59D2FE9C} = {4CD13DB9-FA61-490E-8D1C-F784DF42546E}
+		{BBE316E0-37EC-4FC0-9487-ECD4A570B9A1} = {DFE7354D-368B-489B-A127-9C20693FF15A}
+		{DB2083C2-3540-4A60-B695-CF9D8244D55E} = {BBE316E0-37EC-4FC0-9487-ECD4A570B9A1}
+		{D606A4D0-CD2F-490C-853E-E67FC6B54B1B} = {BBE316E0-37EC-4FC0-9487-ECD4A570B9A1}
+		{BBE154E0-4843-4169-8CFA-3CC0B4E64DA4} = {BBE316E0-37EC-4FC0-9487-ECD4A570B9A1}
+		{9EE2A992-06D0-4C8A-BE3C-EDC5CA2974DB} = {BBE316E0-37EC-4FC0-9487-ECD4A570B9A1}
+		{407B5FCE-6568-4639-BA9D-E9A190DE54DB} = {BBE316E0-37EC-4FC0-9487-ECD4A570B9A1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4452CF42-A23B-4E0B-858A-504F333BDED7}

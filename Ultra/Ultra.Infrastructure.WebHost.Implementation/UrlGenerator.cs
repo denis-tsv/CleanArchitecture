@@ -1,6 +1,6 @@
-﻿using Ultra.Infrastructure.WebHost.Interfaces;
+﻿using Ultra.Web.Infrastructure.WebHost.Interfaces;
 
-namespace Ultra.Infrastructure.WebHost.Implementation
+namespace Ultra.Web.Infrastructure.WebHost.Implementation.AspNetCore
 {
     public class UrlGenerator : IUrlGenerator
     {

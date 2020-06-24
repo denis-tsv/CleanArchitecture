@@ -1,4 +1,4 @@
-﻿namespace Ultra.Entities.Models
+﻿namespace Ultra.Common.Domain.Entities.Models
 {
     public class Product
     {

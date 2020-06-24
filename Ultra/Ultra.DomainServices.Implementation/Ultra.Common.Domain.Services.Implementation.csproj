@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ultra.DomainServices.Interfaces\Ultra.Common.Domain.Services.Interfaces.csproj" />
+    <ProjectReference Include="..\Ultra.Entities\Ultra.Common.Domain.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

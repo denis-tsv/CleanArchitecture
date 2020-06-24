@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Ultra.DownloadService.Controllers
+namespace Ultra.Web.DownloadService.Controllers
 {
     public class DownloadController : ControllerBase
     {

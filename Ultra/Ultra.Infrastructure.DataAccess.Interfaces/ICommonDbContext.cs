@@ -1,11 +1,11 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using Ultra.Entities.Models;
+using Ultra.Common.Domain.Entities.Models;
 
-namespace Ultra.Infrastructure.DataAccess.Interfaces
+namespace Ultra.Common.Infrastructure.DataAccess.Interfaces
 {
-    public interface IDbContext
+    public interface ICommonDbContext
     {
         DbSet<Order> Orders { get; }
         DbSet<OrderItem> OrderItems { get; }
