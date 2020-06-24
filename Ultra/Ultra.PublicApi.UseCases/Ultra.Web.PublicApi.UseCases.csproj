@@ -4,4 +4,11 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Ultra.Entities\Ultra.Common.Domain.Entities.csproj" />
+    <ProjectReference Include="..\Ultra.Infrastructure.DataAccess.Interfaces\Ultra.Common.Infrastructure.DataAccess.Interfaces.csproj" />
+    <ProjectReference Include="..\Ultra.Infrastructure.ServiceBus.Interfaces\Ultra.Common.Infrastructure.ServiceBus.Interfaces.csproj" />
+    <ProjectReference Include="..\Ultra.Integrations.Emailing.Interfaces\Ultra.Common.Integrations.Emailing.Interfaces.csproj" />
+  </ItemGroup>
+
 </Project>

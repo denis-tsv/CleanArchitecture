@@ -4,4 +4,11 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Ultra.ApplicationServices.Interfaces\Ultra.Common.ApplicationServices.Interfaces.csproj" />
+    <ProjectReference Include="..\Ultra.Entities\Ultra.Common.Domain.Entities.csproj" />
+    <ProjectReference Include="..\Ultra.Infrastructure.DataAccess.Interfaces\Ultra.Common.Infrastructure.DataAccess.Interfaces.csproj" />
+    <ProjectReference Include="..\Ultra.Infrastructure.WebHost.Interfaces\Ultra.Web.Infrastructure.WebHost.Interfaces.csproj" />
+  </ItemGroup>
+
 </Project>
