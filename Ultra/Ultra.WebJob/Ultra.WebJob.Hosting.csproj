@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MediatR" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Ultra.Infrastructure.DataAccess.Implementation\Ultra.Common.Infrastructure.DataAccess.Implementation.MsSql.csproj" />
     <ProjectReference Include="..\Ultra.Integrations.Emailing.Implementation\Ultra.Common.Integrations.Emailing.Implementation.csproj" />
     <ProjectReference Include="..\Ultra.WebJob.UseCases\Ultra.WebJob.UseCases.csproj" />
