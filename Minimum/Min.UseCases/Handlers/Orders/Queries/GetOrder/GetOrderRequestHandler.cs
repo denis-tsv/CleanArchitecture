@@ -11,18 +11,18 @@ namespace Min.UseCases.Handlers.Orders.Queries.GetOrder
 {
     public class GetOrderRequestHandler : IRequestHandler<GetOrderRequest, OrderDto>
     {
-        private readonly IDbContext _dbContext;
+        private readonly IReadDbContext _readDbContext;
         private readonly IMapper _mapper;
 
-        public GetOrderRequestHandler(IDbContext dbContext, IMapper mapper)
+        public GetOrderRequestHandler(IReadDbContext readDbContext, IMapper mapper)
         {
-            _dbContext = dbContext;
+            _readDbContext = readDbContext;
             _mapper = mapper;
         }
 
         public async Task<OrderDto> Handle(GetOrderRequest request, CancellationToken cancellationToken)
         {
-            var order = await _dbContext.Orders.AsNoTracking()
+            var order = await _readDbContext.Orders
                 .Include(x => x.Items).ThenInclude(x => x.Product)
                 .SingleOrDefaultAsync(x => x.Id ==  request.Id, cancellationToken: cancellationToken);
 

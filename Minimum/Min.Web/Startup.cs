@@ -38,6 +38,8 @@ namespace Min.Web
 
             services.AddDbContext<IDbContext, AppDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("MsSqlConnection")));
+            services.AddDbContext<IReadDbContext, AppDbContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("MsSqlConnection")));
 
             services.AddScoped<ICurrentUserService, CurrentUserService>();
             services.AddScoped<IEmailService, EmailService>();
